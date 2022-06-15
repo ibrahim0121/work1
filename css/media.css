@@ -1,0 +1,116 @@
+@media (max-width: 375px) {
+    .header__content{
+        display: block;
+    }
+    .header__fon{
+        min-height: 60vh;
+    }
+    #header{
+        padding: 0;
+    }
+    .left{
+       text-align: center;
+    }
+    .left h1{
+        font-size: 1.5rem;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*hERO SECTION*/
+
+@media (max-width: 375px) {
+    .global__text{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .global__text h1{
+        text-align: center;
+    }
+}
+
+/*РАСПОЛОЖЕНИЕ*/
+
+
+@media (max-width: 375px) {
+    #section{
+        padding: 10px   ;
+    }
+    .section__p{
+        margin: 0;
+    }
+    .section__img{
+        display: block;
+        margin: 1rem 0;
+    }
+}
+
+/*Homes*/
+
+
+@media (max-width: 375px) {
+    #sectionn{
+        padding: 10px;
+    }
+    .main__global__start{
+        display: block;
+    }
+    .main__home__img{
+        width: 359px;
+    }
+    .main__global__{
+        margin: 0;
+    }
+    .main__global__start__medium{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+/*ПРЕИМУЩЕСТВА ХОСТЕЛА*/
+@media (max-width: 375px) {
+    .icon__spisok{
+        margin-bottom: 1.5rem;
+    }
+    .icon__content__text{
+        margin: 0;
+    }
+    .icons__content__icons{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .icons__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon__box__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/*заявка*/  
+
+@media (max-width: 375px) {
+    .section__zayav__global{
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section__zayav__global__phone{
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+}
